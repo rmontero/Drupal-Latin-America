@@ -1,0 +1,61 @@
+div.block-content_slider h2,
+div.block-content_slider div.meta,
+div.block-content_slider div.node-links {
+		display:none;
+}
+div.sliderwrapper{
+		width:100%;
+		height: 260px;
+		border:0 none;
+}
+
+#rotato h2.rotato-title {
+	color:#FFF;
+	background:#000;
+	padding:10px;
+	display: block;
+	font-size: 2em;
+	margin: 0;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+div.sliderwrapper div.contentdiv{
+	padding:0;
+}
+
+div.rotato-bg {
+	width:900px;
+	height:250px!important;
+	background-color:transparent;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:top left;
+
+}
+
+div.block-content_slider div.pagination {
+	width:100%;
+	padding:0;
+	background: transparent;
+}
+
+div.block-content_slider div.contentdiv {
+	background:transparent none repeat scroll 0 0 !important;
+	visibility:hidden;
+	position: relative;
+	width: 100%;
+}
+
+.pagination a, .pagination a:link, .pagination a:visited {
+	background-color:transparent;
+	color:#FFFFFF;
+}
+
+.pagination a:hover, .pagination a.selected {
+	background-color:#BCD1FF;
+	color:#336699;
+
+}

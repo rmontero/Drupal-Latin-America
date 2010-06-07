@@ -1,0 +1,68 @@
+/* $Id: layout.css,v 1.1.2.2 2009/03/12 12:25:37 psynaptic Exp $ */
+
+/* Layout */
+
+#page {
+  width: 910px;
+  margin: 0 auto;
+}
+
+#site-name {
+  font-size: 2em;
+}
+
+#slogan {
+  display: block;
+}
+
+#header {
+  padding: 2em 0 1em;
+}
+
+#header-right {
+  float: right;
+}
+
+.sidebar {
+  float: left;
+  width: 190px;
+}
+
+#left {
+  margin-right: 10px;
+  clear: left;
+}
+
+#centre {
+  float: left;
+  margin-bottom: 1em;
+  width: 910px;
+}
+
+#right {
+  margin-left: 10px;
+}
+
+.two-sidebars #centre,
+.sidebar-right #centre {
+  padding-right: 10px;
+}
+
+.two-sidebars #centre {
+  width: 500px;
+}
+
+.sidebar-left #centre {
+  width: 710px;
+  padding-right: 0;
+}
+
+.sidebar-right #centre {
+  width: 700px;
+}
+
+#footer,
+#footer-message {
+  font-size: 0.9em;
+  clear: both;
+}

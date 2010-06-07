@@ -1,0 +1,31 @@
+;$Id:$
+
+name = "DLA"
+description = "Lean, mean base theme with a focus on minimal implementation."
+core = 6.x
+version = 6.x-1.0
+project = "dla"
+engine = phptemplate
+features[] = name
+features[] = logo
+features[] = slogan
+features[] = search
+features[] = favicon
+features[] = primary_links
+features[] = secondary_links
+regions[left] = Left column
+regions[right] = Right column
+regions[center] = Center column
+regions[header] = Header
+regions[content] = Content
+regions[rotato] = Rotato
+regions[footer] = Footer
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/htmlelements.css
+stylesheets[all][] = css/typography.css
+stylesheets[all][] = css/color.css
+stylesheets[all][] = css/navigation.css
+stylesheets[all][] = css/fancy-dates.css
+stylesheets[all][] = css/clean.css
+stylesheets[all][] = css/rotato.css
+stylesheets[all][] = css/style.css
