@@ -3,8 +3,9 @@
 name = "DLA"
 description = "Lean, mean base theme with a focus on minimal implementation."
 core = 6.x
-version = 6.x-1.0
+version = "6.x-1.0"
 project = "dla"
+project status url = "http://features.aiclient.net/fserver"
 engine = phptemplate
 features[] = name
 features[] = logo
